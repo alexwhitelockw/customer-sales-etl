@@ -160,16 +160,6 @@ def read_csv_file(filepath: str) -> pd.DataFrame:
         # Column Names are the first list element
         column_names = data.pop(0)
 
-        # There is a mix of 9 and 10 column rows in the data -- need
-        # to treat each separately
-        #nine_column_data = []
-        #ten_column_data = []
-        #[
-        #    ten_column_data.append(line) if len(line) == 10 
-        #    else nine_column_data.append(line) 
-        #    for line in data
-        #]
-
         data = pd.DataFrame(data=data, columns=column_names)
 
         return data

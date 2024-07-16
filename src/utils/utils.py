@@ -39,7 +39,7 @@ def one_hot_encode(dataframe: pd.DataFrame, column: str) -> pd.DataFrame:
 
 
 def standardise_customer_id(dataframe: pd.DataFrame) -> pd.DataFrame:
-    """"""
+    """Standardise Customer ID to ensure consistency across tables"""
     for index, value in dataframe["customer_id"].items():
         id_length = len(value)
         while id_length < 18:
@@ -52,7 +52,7 @@ def standardise_customer_id(dataframe: pd.DataFrame) -> pd.DataFrame:
 
 
 def standardise_date_format(dataframe: pd.DataFrame, column: str) -> pd.DataFrame:
-    """"""
+    """Standardise Date Columns to ensure consistency across tables"""
     dataframe[column] = pd.to_datetime(dataframe[column], format="%d/%m/%Y")
 
     return dataframe

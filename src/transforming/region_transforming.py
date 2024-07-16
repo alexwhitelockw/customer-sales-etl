@@ -17,6 +17,19 @@ if __name__ == "__main__":
     # Check whether missing values are present in the data
     missing_values = check_for_missing_values(region_details)
 
+    # Following the validation of Shipping details, Austria and Mongolia
+    # are associated with the incorrect region. Updating here.
+
+    region_details.loc[(region_details["country"] == "Austria") & (region_details["market"] == "EMEA"), "region"] = "Central"
+    region_details.loc[(region_details["country"] == "Austria") & (region_details["market"] == "EMEA"), "market"] = "EU"
+
+    region_details.loc[(region_details["country"] == "Mongolia") & (region_details["market"] == "EMEA"), "region"] = "North Asia"
+    region_details.loc[(region_details["country"] == "Mongolia") & (region_details["market"] == "EMEA"), "region"] = "APAC"
+
+    region_duplicates = region_details.loc[region_details[["state", "country", "market", "region"]].duplicated(), "region_id"]
+
+    region_details = region_details.loc[~region_details["region_id"].isin(region_duplicates)]
+
     # Flag whether there are missing values present in the region records
     if any(missing_value > 0 for missing_value in missing_values):
         print("There are missing values in the dataset")

@@ -259,7 +259,6 @@ region_id,state,country,market,region
 6554607,Luhans'k,Ukraine,EMEA,EMEA
 6554608,Banaadir,Somalia,Africa,Africa
 6554609,Bauchi,Nigeria,Africa,Africa
-6554610,Vienna,Austria,EMEA,EMEA
 6554611,Tel Aviv,Israel,EMEA,EMEA
 6554612,Dolj,Romania,EMEA,EMEA
 6554613,Chaouia-Ouardigha,Morocco,Africa,Africa
@@ -448,7 +447,7 @@ region_id,state,country,market,region
 6554797,Ho Chí Minh City,Vietnam,APAC,Southeast Asia
 6554798,Zürich,Switzerland,EU,Central
 6554799,Otago,New Zealand,APAC,Oceania
-6554800,Ulaanbaatar,Mongolia,EMEA,EMEA
+6554800,Ulaanbaatar,Mongolia,EMEA,APAC
 6554801,Homyel',Belarus,EMEA,EMEA
 6554802,Lagunes,Cote d'Ivoire,Africa,Africa
 6554803,Riau,Indonesia,APAC,Southeast Asia
@@ -676,7 +675,6 @@ region_id,state,country,market,region
 6555025,Sulawesi Tenggara,Indonesia,APAC,Southeast Asia
 6555026,Magallanes y Antártica Chilena,Chile,LATAM,South
 6555027,Balti,Moldova,EMEA,EMEA
-6555028,Salzburg,Austria,EMEA,EMEA
 6555029,Alibori,Benin,Africa,Africa
 6555030,Tbilisi,Georgia,EMEA,EMEA
 6555031,Bangui,Central African Republic,Africa,Africa
@@ -716,7 +714,6 @@ region_id,state,country,market,region
 6555065,Campeche,Mexico,LATAM,North
 6555066,Roraima,Brazil,LATAM,South
 6555067,Gezira,Sudan,Africa,Africa
-6555068,Tyrol,Austria,EMEA,EMEA
 6555069,Baki,Azerbaijan,EMEA,EMEA
 6555070,Osaka,Japan,APAC,North Asia
 6555071,Espírito Santo,Brazil,LATAM,South
@@ -813,7 +810,6 @@ region_id,state,country,market,region
 6555163,Atlantique,Benin,Africa,Africa
 6555164,Nayarit,Mexico,LATAM,North
 6555165,District of Columbia,United States,US,East
-6555166,Upper Austria,Austria,EMEA,EMEA
 6555167,Braga,Portugal,EU,South
 6555168,Monagas,Venezuela,LATAM,South
 6555169,La Libertad,Peru,LATAM,South
@@ -919,7 +915,6 @@ region_id,state,country,market,region
 6555269,South Chungcheong,South Korea,APAC,North Asia
 6555270,Shkodër,Albania,EMEA,EMEA
 6555271,Hunedoara,Romania,EMEA,EMEA
-6555272,Carinthia,Austria,EMEA,EMEA
 6555273,Sliven,Bulgaria,EMEA,EMEA
 6555274,Loreto,Peru,LATAM,South
 6555275,Taipei City,Taiwan,APAC,North Asia
@@ -985,7 +980,6 @@ region_id,state,country,market,region
 6555335,Flemish Brabant,Belgium,EU,Central
 6555336,Rivera,Uruguay,LATAM,South
 6555337,Northern Mindanao,Philippines,APAC,Southeast Asia
-6555338,Styria,Austria,EMEA,EMEA
 6555339,Sud,Cameroon,Africa,Africa
 6555340,Saga,Japan,APAC,North Asia
 6555341,Moquegua,Peru,LATAM,South
